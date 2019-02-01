@@ -1,0 +1,24 @@
+.comment {
+  height: 100%;
+  font-family: Ubuntu-Light;
+  list-style-type: none;
+  color: #fff;
+  padding: 0 26px;
+  visibility: hidden;
+  background-color: rgba(1, 1, 1, 0.5); }
+  .comment__item {
+    display: flex; }
+  .comment h3 {
+    font-family: Gagalin-Regular, Ubuntu-Light;
+    text-transform: uppercase;
+    margin: 28px 0 0 0; }
+  .comment p {
+    font-family: Ubuntu-Light; }
+  .comment__btn {
+    color: #fff;
+    background-color: #2f3234;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 14px 18px;
+    text-transform: uppercase;
+    margin: 10px 0 0 0; }

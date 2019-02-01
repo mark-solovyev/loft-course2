@@ -1,0 +1,16 @@
+.content-holder1, .content-holder2, .content-holder3 {
+  height: 100%;
+  display: flex;
+  flex-flow: nowrap column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.content-holder1 {
+  background-image: url(./../../img/video-bg.png); }
+
+.content-holder2 {
+  background-image: url(./../../img/we-are-the-best/bg.jpg); }
+
+.content-holder3 {
+  justify-content: center; }

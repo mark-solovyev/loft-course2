@@ -1,0 +1,35 @@
+.reviews {
+  max-width: 1160px;
+  min-width: 560px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start; }
+  .reviews__item {
+    flex: 1;
+    max-width: 550px;
+    min-width: 275px;
+    height: 325px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; }
+    .reviews__item_img1 {
+      background-image: url(./../../img/feedback/cropped/img1.png); }
+    .reviews__item_img2 {
+      background-image: url(./../../img/feedback/cropped/img2.png); }
+    .reviews__item_img3 {
+      background-image: url(./../../img/feedback/cropped/img3.png); }
+    .reviews__item_img4 {
+      background-image: url(./../../img/feedback/cropped/img4.png); }
+    .reviews__item_img5 {
+      background-image: url(./../../img/feedback/cropped/img5.png); }
+    .reviews__item_img6 {
+      background-image: url(./../../img/feedback/cropped/img6.png); }
+    .reviews__item_img7 {
+      background-image: url(./../../img/feedback/cropped/img7.png); }
+    .reviews__item_img8 {
+      background-image: url(./../../img/feedback/cropped/img8.png); }
+    .reviews__item:hover .comment {
+      visibility: visible; }

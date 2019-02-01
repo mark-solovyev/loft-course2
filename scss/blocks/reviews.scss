@@ -1,0 +1,27 @@
+.reviews {
+    max-width: 1160px;
+    min-width: 560px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    &__item {
+        flex: 1;
+        max-width: 550px;
+        min-width: 275px;
+        height: 325px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        @for $i from 1 through 8 {
+            &_img#{$i} {
+                background-image: url(./../../img/feedback/cropped/img#{$i}.png)
+            }
+        }
+        &:hover .comment {
+            visibility: visible
+        }
+        display: flex
+    }
+}

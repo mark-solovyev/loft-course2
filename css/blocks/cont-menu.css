@@ -1,0 +1,7 @@
+.cont-menu {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly; }
+  .cont-menu__item {
+    width: 32%; }
