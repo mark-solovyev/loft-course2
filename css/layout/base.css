@@ -3,4 +3,5 @@ html, body {
 
 body {
   margin: 0;
-  font-family: Ubuntu-Medium; }
+  font-family: Ubuntu-Medium;
+  border: solid 1px red; }
