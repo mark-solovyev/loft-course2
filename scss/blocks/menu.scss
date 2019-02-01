@@ -1,0 +1,18 @@
+.menu {
+    margin: 0 0 0 auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    &__link {
+        color: inherit;
+        text-decoration: inherit;
+        text-transform: uppercase;
+        display: block;
+        padding: 8px 26px
+    }
+    &__separator {
+        cursor: pointer;
+        width: 0
+    }
+}

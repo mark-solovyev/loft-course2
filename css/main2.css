@@ -1,0 +1,59 @@
+@font-face {
+  font-family: Lifehack-Medium;
+  src: url(./../fonts/lifehack/medium.otf); }
+@font-face {
+  font-family: Gagalin-Regular;
+  src: url(./../fonts/gagalin/regular.otf); }
+@font-face {
+  font-family: Ubuntu-Light;
+  src: url(./../fonts/ubuntu-font-family-0.83/Ubuntu-L.ttf); }
+html, body {
+  height: 100%; }
+
+.wrap {
+  height: 100%; }
+
+.site-section {
+  height: 100%;
+  background-image: url(./../img/we-are-the-best/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.content-holder {
+  height: 100%;
+  width: 1200px;
+  margin: auto; }
+  .content-holder:before {
+    content: "."; }
+
+.main-title {
+  font-family: Gagalin-Regular;
+  font-size: 56px; }
+
+.h2-title {
+  font-family: Lifehack-Medium; }
+
+.services__text {
+  font-family: Ubuntu-Light; }
+
+.header {
+  text-align: center;
+  border: solid 0 red; }
+
+.content {
+  margin: 80px 0 0 0; }
+
+.cont-menu {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly; }
+  .cont-menu__item {
+    width: 32%; }
+
+.services {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center; }

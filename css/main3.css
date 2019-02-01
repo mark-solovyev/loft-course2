@@ -1,0 +1,77 @@
+@import url(layout/normalize.css);
+@font-face {
+  font-family: Ubuntu-Light;
+  src: url(./../fonts/ubuntu-font-family-0.83/Ubuntu-L.ttf); }
+@font-face {
+  font-family: Gagalin-Regular;
+  src: url(./../fonts/gagalin/regular.otf); }
+html, body {
+  height: 100%; }
+
+.wrapper {
+  height: 100%; }
+
+.content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.reviews {
+  max-width: 1160px;
+  min-width: 560px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start; }
+  .reviews__item {
+    flex: 1;
+    max-width: 550px;
+    min-width: 275px;
+    height: 325px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; }
+    .reviews__item_img1 {
+      background-image: url(./../img/feedback/cropped/img1.png); }
+    .reviews__item_img2 {
+      background-image: url(./../img/feedback/cropped/img2.png); }
+    .reviews__item_img3 {
+      background-image: url(./../img/feedback/cropped/img3.png); }
+    .reviews__item_img4 {
+      background-image: url(./../img/feedback/cropped/img4.png); }
+    .reviews__item_img5 {
+      background-image: url(./../img/feedback/cropped/img5.png); }
+    .reviews__item_img6 {
+      background-image: url(./../img/feedback/cropped/img6.png); }
+    .reviews__item_img7 {
+      background-image: url(./../img/feedback/cropped/img7.png); }
+    .reviews__item_img8 {
+      background-image: url(./../img/feedback/cropped/img8.png); }
+    .reviews__item:hover .comment {
+      visibility: visible; }
+
+.comment {
+  height: 100%;
+  font-family: Ubuntu-Light;
+  list-style-type: none;
+  color: #fff;
+  padding: 0 26px;
+  visibility: hidden;
+  background-color: rgba(1, 1, 1, 0.5); }
+  .comment__item {
+    display: flex; }
+  .comment h3 {
+    font-family: Gagalin-Regular, Ubuntu-Light;
+    text-transform: uppercase;
+    margin: 28px 0 0 0; }
+  .comment__btn {
+    color: #fff;
+    background-color: #2f3234;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 14px 18px;
+    text-transform: uppercase;
+    margin: 10px 0 0 0; }

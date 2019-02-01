@@ -1,0 +1,8 @@
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-flow: nowrap column;
+  align-items: center;
+  background-image: url(./../../img/video-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover; }

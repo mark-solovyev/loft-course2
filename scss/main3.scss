@@ -1,0 +1,80 @@
+
+@import url(layout/normalize.css);
+@font-face {
+    font-family: Ubuntu-Light;
+    src: url(./../fonts/ubuntu-font-family-0.83/Ubuntu-L.ttf)
+}
+@font-face {
+    font-family: Gagalin-Regular;
+    src: url(./../fonts/gagalin/regular.otf)
+}
+
+$moreBtn: #2f3234;
+
+html, body {
+    height: 100%
+}
+
+.wrapper {
+    height: 100%
+}
+.content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reviews {
+    max-width: 1160px;
+    min-width: 560px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    &__item {
+        flex: 1;
+        max-width: 550px;
+        min-width: 275px;
+        height: 325px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        @for $i from 1 through 8 {
+            &_img#{$i} {
+                background-image: url(./../img/feedback/cropped/img#{$i}.png)
+            }
+        }
+        &:hover .comment {
+            visibility: visible
+        }
+        display: flex
+    }
+}
+
+.comment {
+    height: 100%;
+    font-family: Ubuntu-Light;
+    list-style-type: none;
+    color: #fff;
+    padding: 0 26px;
+    visibility: hidden;
+    background-color: rgba(1,1,1,0.5);
+    &__item {
+        display: flex;
+    }
+    & h3 {
+        font-family: Gagalin-Regular, Ubuntu-Light;
+        text-transform: uppercase;
+        margin: 28px 0 0 0
+    }
+    &__btn {
+        color: #fff;
+        background-color: $moreBtn;
+        border-radius: 4px;
+        text-decoration: none;
+        padding: 14px 18px;
+        text-transform: uppercase;
+        margin: 10px 0 0 0
+    }
+}

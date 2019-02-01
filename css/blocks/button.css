@@ -1,0 +1,11 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .button__link {
+    background-color: #e45028;
+    color: white;
+    text-decoration: inherit;
+    padding: 14px 30px;
+    border-radius: 6px;
+    text-transform: uppercase; }

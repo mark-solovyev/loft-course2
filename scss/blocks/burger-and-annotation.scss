@@ -1,0 +1,25 @@
+%burger-and-annotation {
+    height: 96%;
+    min-height: 450px;
+    width: 48%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.burger {
+    @extend %burger-and-annotation;
+    &__img {
+        width: 451px;
+        height: 424px;
+        margin-top: -100px
+    }
+}
+.annotation {
+    @extend %burger-and-annotation;
+    &__img {
+        width: 406px;
+        height: 213px
+    }
+}

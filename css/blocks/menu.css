@@ -1,0 +1,15 @@
+.menu {
+  margin: 0 0 0 auto;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  list-style-type: none; }
+  .menu__link {
+    color: inherit;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    display: block;
+    padding: 8px 26px; }
+  .menu__separator {
+    cursor: pointer;
+    width: 0; }
