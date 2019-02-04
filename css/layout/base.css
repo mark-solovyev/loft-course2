@@ -1,6 +1,12 @@
 html, body {
   height: 100%; }
 
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
 body {
   margin: 0;
-  font-family: Ubuntu-Medium; }
+  font-family: Ubuntu-Medium;
+  font-weight: 500;
+  font-style: normal; }

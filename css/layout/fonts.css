@@ -1,15 +1,17 @@
 @font-face {
   font-family: Ubuntu-Medium;
-  src: url(./../../fonts/ubuntu-font-family-0.83/Ubuntu-M.ttf); }
+  src: url(./../../fonts/ubuntu/Ubuntu-Medium/Ubuntu-Medium.woff2) format("woff2"), url(./../../fonts/ubuntu/Ubuntu-Medium/Ubuntu-Medium.woff) format("woff"); }
 @font-face {
   font-family: Ubuntu-Regular;
-  src: url(./../../fonts/ubuntu-font-family-0.83/Ubuntu-R.ttf); }
+  src: url(./../../fonts/ubuntu/Ubuntu/Ubuntu.woff2) format("woff2"), url(./../../fonts/ubuntu/Ubuntu/Ubuntu.woff) format("woff"); }
 @font-face {
   font-family: Ubuntu-Light;
-  src: url(./../../fonts/ubuntu-font-family-0.83/Ubuntu-L.ttf); }
-@font-face {
-  font-family: Gagalin-Regular;
-  src: url(./../../fonts/gagalin/regular.otf); }
+  src: url(./../../fonts/ubuntu/Ubuntu-Light/Ubuntu-Light.woff2) format("woff2"), url(./../../fonts/ubuntu/Ubuntu-Light/Ubuntu-Light.woff) format("woff"); }
 @font-face {
   font-family: Lifehack-Medium;
-  src: url(./../../fonts/lifehack/medium.otf); }
+  src: url(./../../fonts/lifehack/Lifehack-Medium.woff2) format("woff2"), url(./../../fonts/lifehack/Lifehack-Medium.woff) format("woff"); }
+@font-face {
+  font-family: 'Gagalin-Regular';
+  src: url("./../../fonts/gagalin/Gagalin-Regular.woff2") format("woff2"), url("./../../fonts/gagalin/Gagalin-Regular.woff") format("woff"); }
+.gaga {
+  color: purple; }
