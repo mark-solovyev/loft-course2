@@ -1,2 +1,3 @@
 .section {
-  height: 33.33%; }
+  height: 100vh;
+  min-height: 400px; }
