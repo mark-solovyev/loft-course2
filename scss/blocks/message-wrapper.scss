@@ -1,0 +1,12 @@
+.message-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+        background-color: rgba(1,1,1,0.5)
+    }
+    &:hover .message {
+        visibility: visible;
+    }
+}

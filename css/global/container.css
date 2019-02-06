@@ -1,0 +1,14 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-flow: nowrap column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .container_section1 {
+    background-image: url(./../../img/video-bg.png); }
+  .container_section2 {
+    background-image: url(./../../img/we-are-the-best/bg.jpg);
+    justify-content: flex-start; }
+  .container_section3 {
+    justify-content: center; }

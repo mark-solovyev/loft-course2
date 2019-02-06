@@ -10,12 +10,12 @@
     align-content: flex-start;
     &__item {
         flex: 1;
+        // height: 325px;
         // max-width: 550px;
         // min-width: 275px;
-        // ratio = 1.(18)
+        // ratio = 1.(18);
         min-width: 400px;
         max-width: 800px;
-        // height: 325px;
         height: 480px;
         background-repeat: no-repeat;
         background-size: cover;
@@ -24,9 +24,5 @@
                 background-image: url(./../../img/feedback/cropped/img#{$i}.png)
             }
         }
-        &:hover .comment {
-            visibility: visible
-        }
-        display: flex
     }
 }

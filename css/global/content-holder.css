@@ -10,7 +10,8 @@
   background-image: url(./../../img/video-bg.png); }
 
 .content-holder2 {
-  background-image: url(./../../img/we-are-the-best/bg.jpg); }
+  background-image: url(./../../img/we-are-the-best/bg.jpg);
+  justify-content: flex-start; }
 
 .content-holder3 {
   justify-content: center; }

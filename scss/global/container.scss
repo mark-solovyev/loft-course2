@@ -1,0 +1,18 @@
+.container {
+    height: 100%;
+    display: flex;
+    flex-flow: nowrap column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &_section1 {
+        background-image: url(./../../img/video-bg.png);
+    }
+    &_section2 {
+        background-image: url(./../../img/we-are-the-best/bg.jpg);
+        justify-content: flex-start
+    }
+    &_section3 {
+        justify-content: center;
+    }
+}

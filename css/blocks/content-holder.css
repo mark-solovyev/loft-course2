@@ -1,7 +1,6 @@
-.container100 {
+.content-holder {
   flex: 1;
   display: flex;
   flex-direction: column;
   width: 80%;
-  min-width: 1200px;
-  border: solid 1px red; }
+  min-width: 1200px; }

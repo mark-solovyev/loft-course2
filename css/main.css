@@ -2,13 +2,14 @@
 @import url(layout/fonts.css);
 @import url(layout/base.css);
 @import url(layout/text.css);
-@import url(global/content-holder.css);
+@import url(global/container.css);
 @import url(blocks/wrapper.css);
 @import url(blocks/section.css);
-@import url(blocks/container.css);
+@import url(blocks/content-holder.css);
 @import url(blocks/header.css);
 @import url(blocks/floating.css);
 @import url(blocks/logo.css);
+@import url(blocks/menu-wrapper.css);
 @import url(blocks/menu.css);
 @import url(blocks/button.css);
 @import url(blocks/content.css);
@@ -20,3 +21,5 @@
 @import url(blocks/services.css);
 @import url(blocks/comment.css);
 @import url(blocks/reviews.css);
+@import url(blocks/message.css);
+@import url(blocks/message-wrapper.css);

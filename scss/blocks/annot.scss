@@ -1,19 +1,26 @@
 $my-orange: #f9b43b;
-.annot1 {
-    margin-bottom: 20px;
-    color: $my-orange;
-    font-family: Gagalin-Regular;
-    font-size: 72px;
-    font-weight: normal;
-    font-style: normal
-}
-.annot2 {
-    color: #fff;
-    font-family: Lifehack-Medium;
-    font-size: 60px;
-    font-weight: 500;
-    font-style: normal;
-    margin: 0;
-    padding: 0;
-    line-height: 1.2
+
+.annotation {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    &__h1 {
+        margin-bottom: 20px;
+        color: $my-orange;
+        font-family: Gagalin-Regular;
+        font-size: 72px;
+        font-weight: normal;
+        font-style: normal
+    }
+    &__h2 {
+        color: #fff;
+        font-family: Lifehack-Medium;
+        font-size: 60px;
+        font-weight: 500;
+        font-style: normal;
+        margin: 0;
+        padding: 0;
+        line-height: 1.2
+    }
 }

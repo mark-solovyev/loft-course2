@@ -14,8 +14,7 @@
     max-width: 800px;
     height: 480px;
     background-repeat: no-repeat;
-    background-size: cover;
-    display: flex; }
+    background-size: cover; }
     .reviews__item_img1 {
       background-image: url(./../../img/feedback/cropped/img1.png); }
     .reviews__item_img2 {
@@ -32,5 +31,3 @@
       background-image: url(./../../img/feedback/cropped/img7.png); }
     .reviews__item_img8 {
       background-image: url(./../../img/feedback/cropped/img8.png); }
-    .reviews__item:hover .comment {
-      visibility: visible; }
