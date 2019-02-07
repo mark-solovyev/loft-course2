@@ -7,9 +7,18 @@
   .floating__item {
     width: 16px;
     height: 16px;
-    background-image: url(./../../img/ellipse.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    cursor: pointer;
+    /* background-image: url(./../../img/ellipse.png); */
     padding: 4px; }
     .floating__item:first-child {
-      background-image: url(./../../img/ellipse-selected.png); }
+      background-image: url(./../../img/ellipse-selected.png);
+      background-repeat: no-repeat;
+      background-position: center; }
+    .floating__item:after {
+      content: "";
+      display: block;
+      width: 16px;
+      height: 16px;
+      background-image: url(./../../img/ellipse.png);
+      background-repeat: no-repeat;
+      background-position: center; }
