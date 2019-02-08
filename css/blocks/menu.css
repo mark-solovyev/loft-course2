@@ -1,15 +1,27 @@
+@charset "UTF-8";
 .menu {
   margin: 0;
   color: #fff;
   display: flex;
   align-items: center;
   list-style-type: none; }
+  .menu__item {
+    position: relative; }
+  .menu__item:not(:last-child):after {
+    content: "•";
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 20px;
+    right: -4px;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto; }
   .menu__link {
     color: inherit;
     text-decoration: inherit;
     text-transform: uppercase;
     display: block;
     padding: 8px 26px; }
-  .menu__separator {
-    cursor: pointer;
-    width: 0; }
