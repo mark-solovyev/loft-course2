@@ -3,14 +3,15 @@
   flex-direction: column;
   text-align: left;
   align-items: flex-start; }
-  .annotation__h1 {
+  .annotation__gagalin-font {
     margin-bottom: 20px;
     color: #f9b43b;
     font-family: Gagalin-Regular;
     font-size: 72px;
     font-weight: normal;
     font-style: normal; }
-  .annotation__h2 {
+  .annotation__lifehack-font {
+    white-space: normal;
     color: #fff;
     font-family: Lifehack-Medium;
     font-size: 60px;
