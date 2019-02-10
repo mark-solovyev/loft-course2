@@ -1,4 +1,15 @@
 .section {
+    display: flex;
+    justify-content: center;
     height: 100vh;
-    min-height: 400px
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &_1 {
+        background-image: url(./../../img/video-bg.png);
+    }
+    &_2 {
+        background-image: url(./../../img/we-are-the-best/bg.jpg);
+        justify-content: center
+    }
 }

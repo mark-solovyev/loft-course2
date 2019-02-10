@@ -5,7 +5,7 @@
 @import url(global/container.css);
 @import url(blocks/wrapper.css);
 @import url(blocks/section.css);
-@import url(blocks/content-holder.css);
+@import url(blocks/header-and-content-holder.css);
 @import url(blocks/header.css);
 @import url(blocks/floating.css);
 @import url(blocks/logo.css);
