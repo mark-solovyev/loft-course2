@@ -1,0 +1,25 @@
+.reviews {
+    min-width: 800px;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    &__item {
+        flex: 1;
+        overflow: hidden;
+        height: 50vh;
+        width: 25%;
+        min-width: 25%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        @for $i from 1 through 8 {
+            &_img#{$i} {
+                background-image: url(./../../img/feedback/cropped/img#{$i}.png)
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.reviews {
+  min-width: 800px;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start; }
+  .reviews__item {
+    flex: 1;
+    overflow: hidden;
+    height: 50vh;
+    width: 25%;
+    min-width: 25%;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .reviews__item_img1 {
+      background-image: url(./../../img/feedback/cropped/img1.png); }
+    .reviews__item_img2 {
+      background-image: url(./../../img/feedback/cropped/img2.png); }
+    .reviews__item_img3 {
+      background-image: url(./../../img/feedback/cropped/img3.png); }
+    .reviews__item_img4 {
+      background-image: url(./../../img/feedback/cropped/img4.png); }
+    .reviews__item_img5 {
+      background-image: url(./../../img/feedback/cropped/img5.png); }
+    .reviews__item_img6 {
+      background-image: url(./../../img/feedback/cropped/img6.png); }
+    .reviews__item_img7 {
+      background-image: url(./../../img/feedback/cropped/img7.png); }
+    .reviews__item_img8 {
+      background-image: url(./../../img/feedback/cropped/img8.png); }

@@ -1,0 +1,12 @@
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .service h2 {
+    font-family: Lifehack-Medium;
+    font-weight: 500;
+    font-style: normal; }
+  .service p {
+    font-family: Ubuntu-Light;
+    font-weight: 300;
+    font-style: normal; }

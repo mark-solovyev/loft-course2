@@ -1,0 +1,32 @@
+@import url(layout/normalize.css);
+@import url(layout/fonts.css);
+@import url(layout/base.css);
+@import url(layout/text.css);
+// global
+@import url(global/container.css);
+
+@import url(blocks/wrapper.css);
+@import url(blocks/section.css);
+//blocks
+@import url(blocks/header-and-content-holder.css);
+@import url(blocks/header.css);
+@import url(blocks/floating.css);
+@import url(blocks/logo.css);
+@import url(blocks/menu-wrapper.css);
+@import url(blocks/menu.css);
+@import url(blocks/button.css);
+@import url(blocks/content.css);
+@import url(blocks/burger-and-annotation.css);
+@import url(blocks/annot.css);
+@import url(blocks/arrow.css);
+
+// "we are the best" section
+@import url(blocks/we-are-the-best-header.css);
+@import url(blocks/we-are-the-best-content.css);
+@import url(blocks/cont-menu.css);
+@import url(blocks/services.css);
+// feedback section
+@import url(blocks/comment.css);
+@import url(blocks/reviews.css);
+@import url(blocks/message.css);
+@import url(blocks/message-wrapper.css);

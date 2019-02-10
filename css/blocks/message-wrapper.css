@@ -1,0 +1,9 @@
+.message-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .message-wrapper:hover {
+    background-color: rgba(1, 1, 1, 0.5); }
+  .message-wrapper:hover .message {
+    visibility: visible; }

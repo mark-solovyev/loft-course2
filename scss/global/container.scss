@@ -1,0 +1,23 @@
+.container {
+    width: 80vw;
+    display: flex;
+    flex-flow: nowrap column;
+    align-items: center;
+    justify-content: center;
+    &_reviews {
+        width: 100%
+    }
+
+    /*
+    &_section1 {
+        background-image: url(./../../img/video-bg.png);
+    }
+    &_section2 {
+        background-image: url(./../../img/we-are-the-best/bg.jpg);
+        justify-content: center
+    }
+    &_section3 {
+        justify-content: center;
+    }
+    */
+}

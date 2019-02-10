@@ -1,0 +1,30 @@
+$moreBtn: #2f3234;
+.message {
+    width: 90%;
+    height: 90%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    & h3 {
+        font-family: Gagalin-Regular;
+        font-weight: normal;
+        font-style: normal;
+        font-size: xx-large;
+        margin: 0
+    }
+    & p {
+        font-family: Ubuntu-Light;
+        font-size: large
+    }
+    &__btn {
+        color: #fff;
+        background-color: $moreBtn;
+        border-radius: 4px;
+        text-decoration: none;
+        padding: 14px 18px;
+        text-transform: uppercase;
+        margin: 10px 0 0 0;
+        align-self: flex-start
+    }
+}
